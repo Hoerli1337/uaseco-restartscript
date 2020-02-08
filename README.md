@@ -14,3 +14,9 @@ Why?
 
 Several uaseco systems can run on one server. In this case webrequest.sh only needs to be started once.
 If only one uaseco is running on a server, you can simply activate the line for webrequest in the script.
+
+# What does the script do?
+
+It checks via CronJob every X minutes if the uaseco process is still present.
+If so, the script does nothing and terminates again.
+If not, the script restarts uaseco and then terminates.
