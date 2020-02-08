@@ -20,3 +20,6 @@ If only one uaseco is running on a server, you can simply activate the line for 
 It checks via CronJob every X minutes if the uaseco process is still present.
 If so, the script does nothing and terminates again.
 If not, the script restarts uaseco and then terminates.
+
+# Need the script for XAseco?
+https://github.com/Hoerli1337/xaseco-restartscript
